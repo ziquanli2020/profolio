@@ -10,7 +10,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "deploy": "npm run build && git add dist -f && git commit -m 'deploy' && git push origin `git subtree split --prefix dist main`:gh-pages --force"
+
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
