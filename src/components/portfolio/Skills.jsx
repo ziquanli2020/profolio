@@ -1,15 +1,19 @@
 const skillGroups = [
-  {
-    title: "Languages",
-    items: ["Python", "C", "C++", "TypeScript"],
-  },
+  { title: "Languages", items: ["Python", "C", "C++", "TypeScript"] },
   {
     title: "Systems & Tools",
     items: ["Linux", "POSIX", "QNX", "Git", "Bazel", "GoogleTest"],
   },
   {
     title: "Standards & Practices",
-    items: ["AUTOSAR", "MISRA C++", "Scrum", "Jira", "Unit Testing", "Code Review"],
+    items: [
+      "AUTOSAR",
+      "MISRA C++",
+      "Scrum",
+      "Jira",
+      "Unit Testing",
+      "Code Review",
+    ],
   },
   {
     title: "Learning Now",
@@ -69,9 +73,14 @@ const Skills = () => {
             <h3 className="font-mono text-sm text-primary mb-4">Languages</h3>
             <ul className="space-y-3">
               {languages.map((l) => (
-                <li key={l.name} className="flex items-center justify-between text-sm">
+                <li
+                  key={l.name}
+                  className="flex items-center justify-between text-sm"
+                >
                   <span className="text-foreground">{l.name}</span>
-                  <span className="text-muted-foreground font-mono text-xs">{l.level}</span>
+                  <span className="text-muted-foreground font-mono text-xs">
+                    {l.level}
+                  </span>
                 </li>
               ))}
             </ul>

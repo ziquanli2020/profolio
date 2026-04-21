@@ -26,7 +26,8 @@ const Navbar = () => {
     >
       <nav className="container flex h-16 items-center justify-between">
         <a href="#home" className="font-mono text-sm font-semibold">
-          <span className="text-primary">{">"}</span> ziquan<span className="text-primary">.</span>li
+          <span className="text-primary">{">"}</span> ziquan
+          <span className="text-primary">.</span>li
         </a>
         <ul className="hidden md:flex items-center gap-8 text-sm">
           {links.map((l) => (

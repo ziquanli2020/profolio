@@ -20,22 +20,24 @@ const About = () => {
           </div>
           <div className="md:col-span-7 space-y-5 text-lg text-muted-foreground leading-relaxed">
             <p>
-              I graduated from the <span className="text-foreground">University of Helsinki</span>{" "}
-              with a Master&apos;s degree in Computer Science, after completing my Bachelor&apos;s
+              I graduated from the{" "}
+              <span className="text-foreground">University of Helsinki</span> with a
+              Master&apos;s degree in Computer Science, after completing my Bachelor&apos;s
               in Automation Engineering at Shenzhen University.
             </p>
             <p>
-              For nearly three years at <span className="text-foreground">Unikie</span>, I worked
-              as a Software Developer on embedded systems — writing C/C++ code that complies with
+              For nearly three years at <span className="text-foreground">Unikie</span>, I
+              worked as a Software Developer on embedded systems — writing C/C++ code that
+              complies with
               <span className="text-foreground"> AUTOSAR</span> and{" "}
-              <span className="text-foreground">MISRA C++</span> standards, building unit tests,
-              and reviewing teammates&apos; implementations.
+              <span className="text-foreground">MISRA C++</span> standards, building unit
+              tests, and reviewing teammates&apos; implementations.
             </p>
             <p>
               Now I&apos;m transitioning into{" "}
               <span className="text-foreground">AI engineering and backend development</span> —
-              learning AI agents, MCP, and AWS. I value collaboration deeply and enjoy building
-              systems that are correct, maintainable, and a pleasure to work on.
+              learning AI agents, MCP, and AWS. I value collaboration deeply and enjoy
+              building systems that are correct, maintainable, and a pleasure to work on.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4 pt-6">

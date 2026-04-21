@@ -81,7 +81,11 @@ const Experience = () => {
               >
                 <div className="absolute left-0 md:left-1/2 -translate-x-1/2 top-2 h-3 w-3 rounded-full bg-primary shadow-glow" />
 
-                <div className={`pl-8 md:pl-0 ${i % 2 === 0 ? "md:pr-12 md:text-right" : "md:pl-12"}`}>
+                <div
+                  className={`pl-8 md:pl-0 ${
+                    i % 2 === 0 ? "md:pr-12 md:text-right" : "md:pl-12"
+                  }`}
+                >
                   <p className="font-mono text-xs text-primary mb-1">{exp.period}</p>
                   <h3 className="text-xl font-semibold text-foreground">{exp.role}</h3>
                   <p className="text-muted-foreground">
@@ -89,7 +93,9 @@ const Experience = () => {
                   </p>
                 </div>
 
-                <div className={`pl-8 md:pl-0 ${i % 2 === 0 ? "md:pl-12" : "md:pr-12"}`}>
+                <div
+                  className={`pl-8 md:pl-0 ${i % 2 === 0 ? "md:pl-12" : "md:pr-12"}`}
+                >
                   <div className="rounded-xl border border-border bg-card/50 p-6 hover:border-primary/40 hover:shadow-elegant transition-smooth">
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       {exp.bullets.map((b, j) => (
@@ -106,7 +112,6 @@ const Experience = () => {
           </div>
         </div>
 
-        {/* Education */}
         <div className="mt-24">
           <h3 className="text-2xl font-bold mb-8">
             <span className="font-mono text-sm text-primary block mb-2">// education</span>

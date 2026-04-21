@@ -13,7 +13,10 @@ const Hero = () => {
 
       <div className="container relative z-10">
         <div className="max-w-3xl">
-          <p className="font-mono text-sm text-primary mb-4 animate-fade-in-up opacity-0" style={{ animationDelay: "0.1s" }}>
+          <p
+            className="font-mono text-sm text-primary mb-4 animate-fade-in-up opacity-0"
+            style={{ animationDelay: "0.1s" }}
+          >
             <span className="text-muted-foreground">$</span> whoami
           </p>
           <h1
@@ -27,16 +30,17 @@ const Hero = () => {
             style={{ animationDelay: "0.3s" }}
           >
             Software Engineer building{" "}
-            <span className="text-foreground font-medium">backend systems</span> and exploring{" "}
+            <span className="text-foreground font-medium">backend systems</span> and
+            exploring{" "}
             <span className="text-foreground font-medium">AI engineering</span>.
           </h2>
           <p
             className="text-lg text-muted-foreground max-w-2xl mb-10 leading-relaxed animate-fade-in-up opacity-0"
             style={{ animationDelay: "0.4s" }}
           >
-            Based in Helsinki, Finland. University of Helsinki MSc graduate with 3+ years of
-            embedded & systems development experience. Currently leveling up in AI agents and
-            cloud architecture.
+            Based in Helsinki, Finland. University of Helsinki MSc graduate with 3+ years
+            of embedded & systems development experience. Currently leveling up in AI
+            agents and cloud architecture.
           </p>
           <div
             className="flex flex-wrap items-center gap-4 animate-fade-in-up opacity-0"

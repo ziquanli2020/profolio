@@ -11,8 +11,8 @@ const Contact = () => {
             Let&apos;s <span className="text-gradient">build</span> something.
           </h2>
           <p className="text-lg text-muted-foreground mb-10 leading-relaxed">
-            I&apos;m open to backend and AI engineering opportunities, collaborations, or just a
-            chat about systems, code, or career. My inbox is always open.
+            I&apos;m open to backend and AI engineering opportunities, collaborations, or
+            just a chat about systems, code, or career. My inbox is always open.
           </p>
 
           <a
@@ -48,7 +48,9 @@ const Contact = () => {
       <footer className="container relative mt-24 pt-8 border-t border-border">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
           <p className="font-mono">© {new Date().getFullYear()} Ziquan Li</p>
-          <p className="font-mono">Built with React + Tailwind · Deployed on GitHub Pages</p>
+          <p className="font-mono">
+            Built with React + Tailwind · Deployed on GitHub Pages
+          </p>
         </div>
       </footer>
     </section>
